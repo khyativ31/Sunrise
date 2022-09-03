@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Case(failed)">
+    <classes>
+      <class name="com.sr.tests.AdminLogin">
+        <methods>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.sr.tests.AdminLogin -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Smoke_Tests] -->
